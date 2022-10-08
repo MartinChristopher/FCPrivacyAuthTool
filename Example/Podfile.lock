@@ -1,5 +1,5 @@
 PODS:
-  - FCPrivacyAuthTool (0.1.0)
+  - FCPrivacyAuthTool (0.0.1)
 
 DEPENDENCIES:
   - FCPrivacyAuthTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FCPrivacyAuthTool: 5069fa27402ee8fbd85046ab15a9e2f63652b2e4
+  FCPrivacyAuthTool: 93812801894093cba83a9e7de1f79489bc4ddc9f
 
 PODFILE CHECKSUM: b76b658d8631b6cb32fbea51fe2d6863e0742541
 

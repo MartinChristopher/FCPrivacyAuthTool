@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FCPrivacyAuthTool.h"
 
 FOUNDATION_EXPORT double FCPrivacyAuthToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char FCPrivacyAuthToolVersionString[];
