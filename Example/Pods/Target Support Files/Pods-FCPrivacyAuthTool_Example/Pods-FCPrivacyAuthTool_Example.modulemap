@@ -1,0 +1,6 @@
+framework module Pods_FCPrivacyAuthTool_Example {
+  umbrella header "Pods-FCPrivacyAuthTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

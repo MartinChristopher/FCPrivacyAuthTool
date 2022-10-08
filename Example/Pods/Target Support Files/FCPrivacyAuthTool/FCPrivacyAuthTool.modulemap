@@ -1,0 +1,6 @@
+framework module FCPrivacyAuthTool {
+  umbrella header "FCPrivacyAuthTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

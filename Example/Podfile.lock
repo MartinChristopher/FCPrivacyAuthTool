@@ -1,0 +1,16 @@
+PODS:
+  - FCPrivacyAuthTool (0.1.0)
+
+DEPENDENCIES:
+  - FCPrivacyAuthTool (from `../`)
+
+EXTERNAL SOURCES:
+  FCPrivacyAuthTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCPrivacyAuthTool: 5069fa27402ee8fbd85046ab15a9e2f63652b2e4
+
+PODFILE CHECKSUM: b76b658d8631b6cb32fbea51fe2d6863e0742541
+
+COCOAPODS: 1.11.3

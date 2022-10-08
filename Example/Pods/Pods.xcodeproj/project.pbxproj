@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8FD5819CF3976120C14A6F64C39A11 /* FCPrivacyAuthTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC426C014A599B54015AE45FDAAF8F22 /* FCPrivacyAuthTool-dummy.m */; };
+		456CAADE37E9D0CB52C329F30099F32C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF4EF1F070CBB1B6DFC26F62054AAA4 /* ReplaceMe.m */; };
+		67C0E05074735FA1281FEA069E6B5D55 /* FCPrivacyAuthTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BABDD59451AC57CE83CB73A02A6E34 /* FCPrivacyAuthTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9C86F5F36462393794F260C0F71409 /* Pods-FCPrivacyAuthTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E565E5E38CA432F58DB6997F2ADCEDD /* Pods-FCPrivacyAuthTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B13308936A4F245F3B44C2404C9215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		940B25BB26647ECA9364146AAAB703F9 /* Pods-FCPrivacyAuthTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F42A7FFB7B072D735EE42DC95DE4CD8 /* Pods-FCPrivacyAuthTool_Tests-dummy.m */; };
+		942985ECED907CB8F8EB256EB21759A6 /* Pods-FCPrivacyAuthTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7316ED44AAC8DA679BC3C1786658A22 /* Pods-FCPrivacyAuthTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E8A19DE6EEA0E378264ED263AEF7F6E /* Pods-FCPrivacyAuthTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 305FBE205A88C3CFAD66288854968072 /* Pods-FCPrivacyAuthTool_Example-dummy.m */; };
+		AA23BF2884C201D3C47D9CB4CF7BD5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2628456D4C792288E9BB327639B17AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33379729FC5C6F72E571FA84886C17ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7816A82CE17CE3BF0C86ED85A5F1E505;
+			remoteInfo = "Pods-FCPrivacyAuthTool_Example";
+		};
+		4D86CA341BF7C2A440194F3A8808DBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB74CE1044E2DCA4B43CC0401214B0;
+			remoteInfo = FCPrivacyAuthTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C06BE838575A7DC0C680B065C4A9483 /* Pods-FCPrivacyAuthTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCPrivacyAuthTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0D662B4FF0D3AC8A69E973DBF826BBC4 /* Pods-FCPrivacyAuthTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCPrivacyAuthTool_Example.modulemap"; sourceTree = "<group>"; };
+		0FC3C457AB5D5A13E6865A19649D208F /* Pods-FCPrivacyAuthTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCPrivacyAuthTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CFB6E4AA13BFD3A7E4E78B6002B2972 /* Pods-FCPrivacyAuthTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCPrivacyAuthTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F42A7FFB7B072D735EE42DC95DE4CD8 /* Pods-FCPrivacyAuthTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCPrivacyAuthTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FFC5007B0859C8117E7AC955DD36992 /* FCPrivacyAuthTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCPrivacyAuthTool.modulemap; sourceTree = "<group>"; };
+		27F84FD6D0D34A814C308F9B4602DBAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2BF78E040E7F6977AF3F9BFDECD814AD /* Pods-FCPrivacyAuthTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCPrivacyAuthTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E565E5E38CA432F58DB6997F2ADCEDD /* Pods-FCPrivacyAuthTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCPrivacyAuthTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		305FBE205A88C3CFAD66288854968072 /* Pods-FCPrivacyAuthTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCPrivacyAuthTool_Example-dummy.m"; sourceTree = "<group>"; };
+		32AD074D21102BFA16CEAA7A76980F78 /* FCPrivacyAuthTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCPrivacyAuthTool-Info.plist"; sourceTree = "<group>"; };
+		47214BAC865A9A08F9DFE61BE14345FF /* Pods-FCPrivacyAuthTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FCPrivacyAuthTool_Tests"; path = Pods_FCPrivacyAuthTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4780E4B2725516FAEABD4409845DBF7A /* FCPrivacyAuthTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCPrivacyAuthTool-prefix.pch"; sourceTree = "<group>"; };
+		502920FB92CD06968BABE27109B79660 /* Pods-FCPrivacyAuthTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCPrivacyAuthTool_Example-Info.plist"; sourceTree = "<group>"; };
+		539A9F28AC3CA45DF3BB043902A15F51 /* Pods-FCPrivacyAuthTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FCPrivacyAuthTool_Example"; path = Pods_FCPrivacyAuthTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		573E210B7973CD7FD5169102F7A29D82 /* FCPrivacyAuthTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCPrivacyAuthTool; path = FCPrivacyAuthTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75BABDD59451AC57CE83CB73A02A6E34 /* FCPrivacyAuthTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCPrivacyAuthTool-umbrella.h"; sourceTree = "<group>"; };
+		768714227A490A624FD05A0E7105A89A /* Pods-FCPrivacyAuthTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCPrivacyAuthTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78514773B3429D7CBCA89DCBE02DE724 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7DE52DE9475533EC218389B895F0A5C7 /* Pods-FCPrivacyAuthTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCPrivacyAuthTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5D5F27FFE7FE69EE225CD660918A8BC /* FCPrivacyAuthTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCPrivacyAuthTool.release.xcconfig; sourceTree = "<group>"; };
+		C2751D8587C55DE4AD1D98F88244C26E /* Pods-FCPrivacyAuthTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCPrivacyAuthTool_Tests.modulemap"; sourceTree = "<group>"; };
+		C2F016E8609D24FE4EF5B68C9225893A /* Pods-FCPrivacyAuthTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCPrivacyAuthTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C64BD78857F84147420D64CC4B0FB218 /* Pods-FCPrivacyAuthTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCPrivacyAuthTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7C48A2CE4D7464606DD77E4310D7885 /* FCPrivacyAuthTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCPrivacyAuthTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C96881BD2DA631162C0D89B1F2BB3DC4 /* FCPrivacyAuthTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCPrivacyAuthTool.debug.xcconfig; sourceTree = "<group>"; };
+		CF6FDB9AB26FF964A5FA286E9D61450E /* Pods-FCPrivacyAuthTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCPrivacyAuthTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7316ED44AAC8DA679BC3C1786658A22 /* Pods-FCPrivacyAuthTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCPrivacyAuthTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		DEF4EF1F070CBB1B6DFC26F62054AAA4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FCPrivacyAuthTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E04253E8B30690C46D199E8F3EF1FA7D /* Pods-FCPrivacyAuthTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCPrivacyAuthTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC426C014A599B54015AE45FDAAF8F22 /* FCPrivacyAuthTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCPrivacyAuthTool-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C94336C8C082E0ADCFF5D039A7BD722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA23BF2884C201D3C47D9CB4CF7BD5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9252A9812BD7929A0AA392B7A072FF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2628456D4C792288E9BB327639B17AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976D496F427B6F78A51973283D6D0C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B13308936A4F245F3B44C2404C9215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6C3026240B4EAD9DC65966E6F10D2D /* FCPrivacyAuthTool */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4EF1F070CBB1B6DFC26F62054AAA4 /* ReplaceMe.m */,
+				217123720BE2FB0AFB5945678F99CDCF /* Pod */,
+				DE28140FA2682290FEEBB5D11AAD6F95 /* Support Files */,
+			);
+			name = FCPrivacyAuthTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1354350F5EC3354F2277E2082182F108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573E210B7973CD7FD5169102F7A29D82 /* FCPrivacyAuthTool */,
+				539A9F28AC3CA45DF3BB043902A15F51 /* Pods-FCPrivacyAuthTool_Example */,
+				47214BAC865A9A08F9DFE61BE14345FF /* Pods-FCPrivacyAuthTool_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217123720BE2FB0AFB5945678F99CDCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7C48A2CE4D7464606DD77E4310D7885 /* FCPrivacyAuthTool.podspec */,
+				27F84FD6D0D34A814C308F9B4602DBAB /* LICENSE */,
+				78514773B3429D7CBCA89DCBE02DE724 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		987E1928CA0F702685EBA9A3AB00F629 /* Pods-FCPrivacyAuthTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0D662B4FF0D3AC8A69E973DBF826BBC4 /* Pods-FCPrivacyAuthTool_Example.modulemap */,
+				768714227A490A624FD05A0E7105A89A /* Pods-FCPrivacyAuthTool_Example-acknowledgements.markdown */,
+				C2F016E8609D24FE4EF5B68C9225893A /* Pods-FCPrivacyAuthTool_Example-acknowledgements.plist */,
+				305FBE205A88C3CFAD66288854968072 /* Pods-FCPrivacyAuthTool_Example-dummy.m */,
+				0C06BE838575A7DC0C680B065C4A9483 /* Pods-FCPrivacyAuthTool_Example-frameworks.sh */,
+				502920FB92CD06968BABE27109B79660 /* Pods-FCPrivacyAuthTool_Example-Info.plist */,
+				D7316ED44AAC8DA679BC3C1786658A22 /* Pods-FCPrivacyAuthTool_Example-umbrella.h */,
+				E04253E8B30690C46D199E8F3EF1FA7D /* Pods-FCPrivacyAuthTool_Example.debug.xcconfig */,
+				1CFB6E4AA13BFD3A7E4E78B6002B2972 /* Pods-FCPrivacyAuthTool_Example.release.xcconfig */,
+			);
+			name = "Pods-FCPrivacyAuthTool_Example";
+			path = "Target Support Files/Pods-FCPrivacyAuthTool_Example";
+			sourceTree = "<group>";
+		};
+		99F7A82F26EBC6C1C4A59C744BA58997 /* Pods-FCPrivacyAuthTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2751D8587C55DE4AD1D98F88244C26E /* Pods-FCPrivacyAuthTool_Tests.modulemap */,
+				CF6FDB9AB26FF964A5FA286E9D61450E /* Pods-FCPrivacyAuthTool_Tests-acknowledgements.markdown */,
+				2BF78E040E7F6977AF3F9BFDECD814AD /* Pods-FCPrivacyAuthTool_Tests-acknowledgements.plist */,
+				1F42A7FFB7B072D735EE42DC95DE4CD8 /* Pods-FCPrivacyAuthTool_Tests-dummy.m */,
+				7DE52DE9475533EC218389B895F0A5C7 /* Pods-FCPrivacyAuthTool_Tests-Info.plist */,
+				2E565E5E38CA432F58DB6997F2ADCEDD /* Pods-FCPrivacyAuthTool_Tests-umbrella.h */,
+				0FC3C457AB5D5A13E6865A19649D208F /* Pods-FCPrivacyAuthTool_Tests.debug.xcconfig */,
+				C64BD78857F84147420D64CC4B0FB218 /* Pods-FCPrivacyAuthTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-FCPrivacyAuthTool_Tests";
+			path = "Target Support Files/Pods-FCPrivacyAuthTool_Tests";
+			sourceTree = "<group>";
+		};
+		C581F7ED26A24C3942C4AAAFAC53BE9E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6C3026240B4EAD9DC65966E6F10D2D /* FCPrivacyAuthTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C581F7ED26A24C3942C4AAAFAC53BE9E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1354350F5EC3354F2277E2082182F108 /* Products */,
+				E22E93C71528B88BD8AF146A80BFE506 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE28140FA2682290FEEBB5D11AAD6F95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FFC5007B0859C8117E7AC955DD36992 /* FCPrivacyAuthTool.modulemap */,
+				EC426C014A599B54015AE45FDAAF8F22 /* FCPrivacyAuthTool-dummy.m */,
+				32AD074D21102BFA16CEAA7A76980F78 /* FCPrivacyAuthTool-Info.plist */,
+				4780E4B2725516FAEABD4409845DBF7A /* FCPrivacyAuthTool-prefix.pch */,
+				75BABDD59451AC57CE83CB73A02A6E34 /* FCPrivacyAuthTool-umbrella.h */,
+				C96881BD2DA631162C0D89B1F2BB3DC4 /* FCPrivacyAuthTool.debug.xcconfig */,
+				A5D5F27FFE7FE69EE225CD660918A8BC /* FCPrivacyAuthTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FCPrivacyAuthTool";
+			sourceTree = "<group>";
+		};
+		E22E93C71528B88BD8AF146A80BFE506 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				987E1928CA0F702685EBA9A3AB00F629 /* Pods-FCPrivacyAuthTool_Example */,
+				99F7A82F26EBC6C1C4A59C744BA58997 /* Pods-FCPrivacyAuthTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		014F57A34016098598DA2EA851E9C7CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942985ECED907CB8F8EB256EB21759A6 /* Pods-FCPrivacyAuthTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFF08EA1F757820E6AD47338EB38841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C0E05074735FA1281FEA069E6B5D55 /* FCPrivacyAuthTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D36F81962AC24E9A160303850486B51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9C86F5F36462393794F260C0F71409 /* Pods-FCPrivacyAuthTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67EB74CE1044E2DCA4B43CC0401214B0 /* FCPrivacyAuthTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C2A114A6828CF1AFEE3D3FBD750B4C8 /* Build configuration list for PBXNativeTarget "FCPrivacyAuthTool" */;
+			buildPhases = (
+				7FFF08EA1F757820E6AD47338EB38841 /* Headers */,
+				AF5DD4805A19EC06C7FD1CA4DECA5835 /* Sources */,
+				4C94336C8C082E0ADCFF5D039A7BD722 /* Frameworks */,
+				91F762410198ADB0D71B589EB120FC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCPrivacyAuthTool;
+			productName = FCPrivacyAuthTool;
+			productReference = 573E210B7973CD7FD5169102F7A29D82 /* FCPrivacyAuthTool */;
+			productType = "com.apple.product-type.framework";
+		};
+		7816A82CE17CE3BF0C86ED85A5F1E505 /* Pods-FCPrivacyAuthTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B48BED7AEA78F680DF23B53DCD2A74B /* Build configuration list for PBXNativeTarget "Pods-FCPrivacyAuthTool_Example" */;
+			buildPhases = (
+				014F57A34016098598DA2EA851E9C7CA /* Headers */,
+				C9F1F762CBBFDEEA2853F66DC981CBC9 /* Sources */,
+				9252A9812BD7929A0AA392B7A072FF8A /* Frameworks */,
+				73100A426250202694EF45CC7EE1DE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0044BE43029C010C03CE7C410D0DDCFE /* PBXTargetDependency */,
+			);
+			name = "Pods-FCPrivacyAuthTool_Example";
+			productName = Pods_FCPrivacyAuthTool_Example;
+			productReference = 539A9F28AC3CA45DF3BB043902A15F51 /* Pods-FCPrivacyAuthTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2EEF7086FAE80A50AB5358BCF28580A /* Pods-FCPrivacyAuthTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AF72D9435979573FA52971FBEE8709 /* Build configuration list for PBXNativeTarget "Pods-FCPrivacyAuthTool_Tests" */;
+			buildPhases = (
+				8D36F81962AC24E9A160303850486B51 /* Headers */,
+				B9A4AF9CE6BA30C70976A1A5A0B36EC4 /* Sources */,
+				976D496F427B6F78A51973283D6D0C5B /* Frameworks */,
+				A89B91B7EDBB8A2035C6D908F4FB9961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813164A7B79B2B6749DF99F0073FD42E /* PBXTargetDependency */,
+			);
+			name = "Pods-FCPrivacyAuthTool_Tests";
+			productName = Pods_FCPrivacyAuthTool_Tests;
+			productReference = 47214BAC865A9A08F9DFE61BE14345FF /* Pods-FCPrivacyAuthTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1354350F5EC3354F2277E2082182F108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67EB74CE1044E2DCA4B43CC0401214B0 /* FCPrivacyAuthTool */,
+				7816A82CE17CE3BF0C86ED85A5F1E505 /* Pods-FCPrivacyAuthTool_Example */,
+				A2EEF7086FAE80A50AB5358BCF28580A /* Pods-FCPrivacyAuthTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73100A426250202694EF45CC7EE1DE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F762410198ADB0D71B589EB120FC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89B91B7EDBB8A2035C6D908F4FB9961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5DD4805A19EC06C7FD1CA4DECA5835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8FD5819CF3976120C14A6F64C39A11 /* FCPrivacyAuthTool-dummy.m in Sources */,
+				456CAADE37E9D0CB52C329F30099F32C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A4AF9CE6BA30C70976A1A5A0B36EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940B25BB26647ECA9364146AAAB703F9 /* Pods-FCPrivacyAuthTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F1F762CBBFDEEA2853F66DC981CBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8A19DE6EEA0E378264ED263AEF7F6E /* Pods-FCPrivacyAuthTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0044BE43029C010C03CE7C410D0DDCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCPrivacyAuthTool;
+			target = 67EB74CE1044E2DCA4B43CC0401214B0 /* FCPrivacyAuthTool */;
+			targetProxy = 4D86CA341BF7C2A440194F3A8808DBA1 /* PBXContainerItemProxy */;
+		};
+		813164A7B79B2B6749DF99F0073FD42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FCPrivacyAuthTool_Example";
+			target = 7816A82CE17CE3BF0C86ED85A5F1E505 /* Pods-FCPrivacyAuthTool_Example */;
+			targetProxy = 33379729FC5C6F72E571FA84886C17ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6C6F9A005B187518F3F0732EFA6E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04253E8B30690C46D199E8F3EF1FA7D /* Pods-FCPrivacyAuthTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Example/Pods-FCPrivacyAuthTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Example/Pods-FCPrivacyAuthTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D6D36210580A3F685F9526A757DC609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFB6E4AA13BFD3A7E4E78B6002B2972 /* Pods-FCPrivacyAuthTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Example/Pods-FCPrivacyAuthTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Example/Pods-FCPrivacyAuthTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74B242C9803269392E2819B1E710DF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96881BD2DA631162C0D89B1F2BB3DC4 /* FCPrivacyAuthTool.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCPrivacyAuthTool/FCPrivacyAuthTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCPrivacyAuthTool/FCPrivacyAuthTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCPrivacyAuthTool/FCPrivacyAuthTool.modulemap";
+				PRODUCT_MODULE_NAME = FCPrivacyAuthTool;
+				PRODUCT_NAME = FCPrivacyAuthTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		992F7E07798D62D803CC5C74466CCB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64BD78857F84147420D64CC4B0FB218 /* Pods-FCPrivacyAuthTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Tests/Pods-FCPrivacyAuthTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Tests/Pods-FCPrivacyAuthTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5C6A93FA46DBC3633FA28A338E7B935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC3C457AB5D5A13E6865A19649D208F /* Pods-FCPrivacyAuthTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Tests/Pods-FCPrivacyAuthTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCPrivacyAuthTool_Tests/Pods-FCPrivacyAuthTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E49E10167C91AE3882C4CF4F41A378B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D5F27FFE7FE69EE225CD660918A8BC /* FCPrivacyAuthTool.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCPrivacyAuthTool/FCPrivacyAuthTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCPrivacyAuthTool/FCPrivacyAuthTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCPrivacyAuthTool/FCPrivacyAuthTool.modulemap";
+				PRODUCT_MODULE_NAME = FCPrivacyAuthTool;
+				PRODUCT_NAME = FCPrivacyAuthTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AF72D9435979573FA52971FBEE8709 /* Build configuration list for PBXNativeTarget "Pods-FCPrivacyAuthTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C6A93FA46DBC3633FA28A338E7B935 /* Debug */,
+				992F7E07798D62D803CC5C74466CCB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2A114A6828CF1AFEE3D3FBD750B4C8 /* Build configuration list for PBXNativeTarget "FCPrivacyAuthTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B242C9803269392E2819B1E710DF02 /* Debug */,
+				E49E10167C91AE3882C4CF4F41A378B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B48BED7AEA78F680DF23B53DCD2A74B /* Build configuration list for PBXNativeTarget "Pods-FCPrivacyAuthTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6C6F9A005B187518F3F0732EFA6E33 /* Debug */,
+				2D6D36210580A3F685F9526A757DC609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
